@@ -29,18 +29,18 @@
     </div>
   </div>
 </div>
+<br>
 
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">
-
-            </h3>
-          </div>
+      <div class="card car-default">
+        <div class="card-heading">
+          <h3 class="card-title">
+              Add a Location
+          </h3>
         </div>
-        <div class="panel-body">   
+        <div class="card-body">   
           <form (submit)="addMarker()">
             <div class="row">
               <div class="col">
@@ -58,7 +58,7 @@
                 <input class="form-control" type="text" [(ngModel)]="markerLongitude" name="markerLongitude">
               </div>
             </div>
-
+            
             <div class="row">
               <div class="col">
                 <label>Draggable </label>
@@ -73,6 +73,7 @@
             </div>
           </form>
         </div>
+      </div>
     </div>
   </div>
 </div>
