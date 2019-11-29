@@ -18,7 +18,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     AppRoutingModule,
     FormsModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyC48MuWrlcKZ1wPsR7w4Uez7jBaAvgC-5o'
+      apiKey: '<Your-API-Key-Here'
     })
   ],
   providers: [MarkersService],
